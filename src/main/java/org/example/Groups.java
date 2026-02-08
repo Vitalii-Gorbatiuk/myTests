@@ -18,6 +18,7 @@ public class Groups {
     public String toGroup(Long hashedIdentifier) {
         // Example for imperative group search has O(n) time complexity.
         // For now are used functional style search via Stream API.
+        // Later toGroup can be optimized with binary search with O(Lon(n)) time complexity
 /*
         for (Map.Entry<String, Group> stringGroupEntry : groups.entrySet()) {
             String key = stringGroupEntry.getKey();

@@ -53,3 +53,5 @@ The whole initial range is [0..1] and anything like this [0.0, 0.1] it is sub-ra
 > In case of group intersection result can be incorrect
 > 
 > As far as groups amount is pretty small, linear time complexity for group detection isn't a problem (O(n) complexity, has no any premature optimisation)
+> 
+> Later toGroup can be optimized with binary search with O(Lon(n)) time complexity. For this we need to sort list with Groups or use TreeSet.
